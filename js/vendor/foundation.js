@@ -3022,7 +3022,7 @@ var DropdownMenu = function (_Plugin) {
 
         if (isTab) {
           if (_this._isVertical()) {
-            // vertical menu
+            // vertical menu sidebarmenu-options 
             if (_this._isRtl()) {
               // right aligned
               __WEBPACK_IMPORTED_MODULE_0_jquery___default.a.extend(functions, {
