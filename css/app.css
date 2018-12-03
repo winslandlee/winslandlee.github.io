@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: .07em;
+    color: #505050;
+    font-size: .75em;
+}
+.top-nav {
+    padding-top: 100px;
+}
+
+.menu-options {
+    text-align: right;
+    font-weight: 700;
+    
+}
+
+.content-padding-top {
+    padding-top: 20px;
+}
+
+.name {
+    font-size: 1.75em;
+    position: relative;
+    top: -10px;
+    letter-spacing: 0px;
+    font-weight: 700;
+}
+
+.socialmedia {
+    margin: auto;
+    padding-top: 30px;
+    font-weight: 700;
+    
+}
+
+@media screen and (max-width: 640px) {
+
+    .socialmedia {
+        padding-top: 20px;
+    }
+}
+
+a {
+    color: #505050;
+}
+
+a img {
+    padding: 5px 0px;
+}
+.menuoffcampus {
+    padding-top: 30px;
+}
+
+.socialmedialinks {
+    padding: 0px 10px;
+}
+
+.work-padding {
+    padding-right: 8px;
+}
+
+.center {
+    justify-content: center;
+}
+
+.portfolio-image-padding {
+    padding: 10px 10px;
+}
+
+.portfolio-height {
+    height: 600px;
+}
+
+.about {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+/* SINGLE COLUMN FOR SMALL SCREENS BY DEFAULT (mobile first approach) */
+.masonry {
+  column-count:1;
+  column-gap:0em;
+}
+
+.masonry .item {
+  background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+
+/* TWO COLUMNS FOR MEDIUM SCREENS AND UP */
+@media screen and (min-width: 640px) {
+  .masonry {
+    column-count:2;
+    column-gap:1em;
+  }
+}
+
+/* THREE COLUMNS FOR LARGE SCREENS AND UP */
+@media screen and (min-width: 1024px) {
+  .masonry {
+    column-count:3;
+    column-gap:1em;
+  }
+}
+
+.sidebarmenu-options {
+    padding-top: 10px;
+}
+
+.sidebarmenu {
+    background-color: #fafafa; 
+}
+
+.project_padding {
+    padding: 30px 50px;
+}
+
+.project_title {
+    padding-top: 30px;
+    font-size: 1em;
+    position: relative;
+    top: -10px;
+    letter-spacing: 0px;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 640px) {
+    .project_title {
+        padding: 3em 5em 0em 5em;
+        font-size: 1em;
+        position: relative;
+        top: -10px;
+        letter-spacing: 0px;
+        font-weight: 700;
+    }   
+}
+
+
+.project_description {
+    font-size: 1em;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 640px) {
+    .project_description {
+        font-size: 1em;
+        padding: 0px 5em 2em 5em;
+    }
+}
+
+.project_subimages {
+    padding: 5px;
+}
+
+.project_subimage_margin {
+    margin: 0px -5px;
+}
+
+.aboutmebold {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.bottomgreyborder {
+    border-bottom: .5px lightgrey solid;
+    padding-top: 10px;
+}
+
+.contact {
+    font-size: 5em;
+    font-weight: 500;
+}
+
+.vmenu {
+    font-weight: 700;
+}
+
+@media screen and (min-width: 640px) {
+@media screen and (min-width: 640px) {
+    .aboutme {
+        max-width: 70%;
+    }
+}
+}
