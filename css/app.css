@@ -117,13 +117,13 @@ a img {
     background-color: #fafafa; 
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-device-width: 480px) {
     .project_padding {
         padding: 30px 50px;
     }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-device-width: 320px) {
     .project_padding {
         padding: 30px 0px;
     }
