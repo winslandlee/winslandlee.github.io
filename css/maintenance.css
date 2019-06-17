@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700');
+
+html {
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: .07em;
+    font-size: .75em;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    color: white;
+}
+
+announcement {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    padding-top: 30%;
+}
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: white;
+}
